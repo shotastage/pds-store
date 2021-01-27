@@ -197,6 +197,7 @@
 				514201472437B4B30078DB4F /* Resources */,
 				381D8A6E24576A4E00465D17 /* Bundle React Native code and images */,
 				86DE081C021AD24614C2521F /* [CP] Copy Pods Resources */,
+				D8F5E9B959BDE269BA80E018 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -377,6 +378,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDStore-macOS/Pods-PDStore-macOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8F5E9B959BDE269BA80E018 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDStore-macOS/Pods-PDStore-macOS-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDStore-macOS/Pods-PDStore-macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F5066A9DA688825E8B9D0E78 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,7 +492,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-nichan.PDStore";
 				PRODUCT_NAME = PDStore;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -495,7 +514,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-nichan.PDStore";
 				PRODUCT_NAME = PDStore;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,7 +536,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-nichan.PDStore";
 				PRODUCT_NAME = PDStore;
 				SDKROOT = macosx;
 			};
@@ -537,7 +556,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-nichan.PDStore";
 				PRODUCT_NAME = PDStore;
 				SDKROOT = macosx;
 			};

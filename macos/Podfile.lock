@@ -296,6 +296,7 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
+  - Sparkle (1.24.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -348,6 +349,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native-macos/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native-macos/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native-macos/ReactCommon`)
+  - Sparkle
   - Yoga (from `../node_modules/react-native-macos/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -362,6 +364,7 @@ SPEC REPOS:
     - Flipper-RSocket
     - FlipperKit
     - OpenSSL-Universal
+    - Sparkle
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -457,9 +460,10 @@ SPEC CHECKSUMS:
   React-RCTText: 2d0b8aecaf47235b295b9729c082bae46ce433d6
   React-RCTVibration: 2290373bee182837dd395a310285b446e97797dc
   ReactCommon: 0995c4630fec9a99fa052076a436d5a699769851
+  Sparkle: 270cd27377bf04e9c128af06e3a22d0f572d6ee3
   Yoga: b26efe89bae2d15d292f37e00a322b144f37da95
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 4fca7791ed16c264bc0b5504c8897331a1a09673
+PODFILE CHECKSUM: 1c198cfa19a0715ae856b1e7ca75b60e46bff270
 
 COCOAPODS: 1.10.1
