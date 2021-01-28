@@ -13,21 +13,20 @@ import {
   SafeAreaView,
   StyleSheet,
   ScrollView,
-  View,
   Text,
   StatusBar,
 } from 'react-native';
 
 import {
-  Header,
-  LearnMoreLinks,
   Colors
 } from 'react-native/Libraries/NewAppScreen';
 import { AppTile, AppIcon, AppLabel } from './components/AppContents';
+import { InitialAlert } from './views/InitialAlert';
 
 declare const global: { HermesInternal: null | {} };
 
 const App = () => {
+  InitialAlert();
   return (
     <>
       <StatusBar barStyle="dark-content" />
